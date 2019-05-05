@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  /* height: 100vh; */
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #dddddd;
+}
+.App h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: sienna;
+}
+.filter {
+  display: flex;
+  width: 60%;
+  margin: 5px auto 20px;
+  justify-content: center;
+  text-align: center;
+}
+.filter input {
+  background-color: #ffffff;
+  margin: 5px;
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  width: 30%;
+}
+.filter button {
+  width: 30%;
+  margin: 5px;
+  background-color: #f9a949;
+  color: sienna;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #f9a9f9;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.product {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  width: 30%;
+  margin: 10px 0;
+  align-items: center;
+}
+.product-image {
+  width: 40%;
+}
+.product-image img {
+  border: 2px solid firebrick;
+  border-radius: 5px;
+  width: 100%;
+  max-height: 150px;
+}
+.product-details {
+  margin-left: 20px;
+}
+.product-details p {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.products {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.add-product {
+  border-top: 2px solid #f9a949;
+  width: 70%;
+  margin: 50px auto 10px;
+  text-align: center;
+}
+.add-product input {
+  background-color: #ffffff;
+  margin: 10px 5px;
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  width: 60%;
+}
+.add-product button {
+  width: 61%;
+  margin: 10px 5px;
+  background-color: #f9a949;
+  color: sienna;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #f9a9f9;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.add-product button:disabled {
+  color: #e5e5e5;
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.full-product {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+  width: 80%;
+  margin: 10px auto;
+  align-items: center;
+}
+.full-product-image {
+  width: 80%;
+}
+.full-product-image img {
+  border: 2px solid firebrick;
+  border-radius: 5px;
+  width: 100%;
+  max-height: 350px;
+}
+.full-product-details {
+  margin: 30px 0;
+  padding: 5px 50px;
+}
+.full-product-details p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.full-product button {
+  margin: 10px 5px;
+  background-color: #f9a949;
+  color: sienna;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #f9a9f9;
+  outline: none;
+  padding: 10px 100px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
