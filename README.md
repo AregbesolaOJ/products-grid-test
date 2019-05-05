@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Test Cases for this project:
+- Display products in a grid
+- Users should be able to sort products by
+  id and price
+- Users should be able to go to the details page 
+  for each of the displayed products
+
+- You can go wild with styles and other features 
+  that come to your mind
+
+
+  optional features:
+  - product grid should auto load more items as 
+    you scroll down
+  - add to the product list
+
 ## Available Scripts
 
 In the project directory, you can run:
